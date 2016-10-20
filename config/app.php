@@ -177,7 +177,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\SparkServiceProvider::class,
+        
+        /**
+         * Spark Service Providers...
+         */
+        // App\Providers\SparkServiceProvider::class,
 
     ],
 
